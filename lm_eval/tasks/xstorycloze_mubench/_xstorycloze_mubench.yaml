@@ -1,0 +1,38 @@
+group: xstorycloze_mubench
+task:
+- xstorycloze_af_mubench
+- xstorycloze_ar_mubench
+- xstorycloze_eu_mubench
+- xstorycloze_bg_mubench
+- xstorycloze_zh_mubench
+- xstorycloze_hr_mubench
+- xstorycloze_da_mubench
+- xstorycloze_nl_mubench 
+- xstorycloze_et_mubench
+- xstorycloze_fr_mubench
+- xstorycloze_de_mubench
+- xstorycloze_el_mubench
+- xstorycloze_he_mubench
+- xstorycloze_hi_mubench
+- xstorycloze_id_mubench
+- xstorycloze_is_mubench
+- xstorycloze_it_mubench
+- xstorycloze_jp_mubench
+- xstorycloze_kn_mubench
+- xstorycloze_ko_mubench
+- xstorycloze_fa_mubench
+- xstorycloze_pl_mubench
+- xstorycloze_pt_mubench
+- xstorycloze_ro_mubench
+- xstorycloze_sr_mubench
+- xstorycloze_es_mubench
+- xstorycloze_sv_mubench
+- xstorycloze_tr_mubench
+- xstorycloze_uk_mubench
+- xstorycloze_ur_mubench
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

@@ -1,0 +1,3 @@
+include: multiblimp_ar.yaml
+task: multiblimp_sv
+dataset_name: swe

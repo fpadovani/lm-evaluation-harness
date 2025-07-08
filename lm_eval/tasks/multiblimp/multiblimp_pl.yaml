@@ -1,0 +1,3 @@
+include: multiblimp_ar.yaml
+task: multiblimp_pl
+dataset_name: pol

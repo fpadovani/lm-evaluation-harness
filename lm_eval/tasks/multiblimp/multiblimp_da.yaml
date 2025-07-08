@@ -1,0 +1,3 @@
+include: multiblimp_ar.yaml
+task: multiblimp_da
+dataset_name: dan

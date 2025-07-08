@@ -1,0 +1,38 @@
+group: winogrande_mubench
+task:
+- winogrande_af_mubench
+- winogrande_ar_mubench
+- winogrande_eu_mubench
+- winogrande_bg_mubench
+- winogrande_zh_mubench
+- winogrande_hr_mubench
+- winogrande_da_mubench
+- winogrande_nl_mubench
+- winogrande_et_mubench
+- winogrande_fr_mubench
+- winogrande_de_mubench
+- winogrande_el_mubench
+- winogrande_he_mubench
+- winogrande_hi_mubench
+- winogrande_id_mubench
+- winogrande_is_mubench
+- winogrande_it_mubench
+- winogrande_jp_mubench
+- winogrande_kn_mubench
+- winogrande_ko_mubench
+- winogrande_fa_mubench
+- winogrande_pl_mubench
+- winogrande_pt_mubench
+- winogrande_ro_mubench
+- winogrande_sr_mubench
+- winogrande_es_mubench
+- winogrande_sv_mubench
+- winogrande_tr_mubench
+- winogrande_uk_mubench
+- winogrande_ur_mubench
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

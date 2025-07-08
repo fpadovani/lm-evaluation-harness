@@ -1,0 +1,36 @@
+group: multiblimp
+task:
+- multiblimp_ar
+- multiblimp_bg
+- multiblimp_cy
+- multiblimp_hr
+- multiblimp_da
+- multiblimp_de
+- multiblimp_el
+- multiblimp_es
+- multiblimp_et
+- multiblimp_eu
+- multiblimp_fa
+- multiblimp_fr
+- multiblimp_he
+- multiblimp_hi
+- multiplimp_hr
+- multiblimp_is
+- multiblimp_it
+- multiblimp_jp
+- multiblimp_ne
+- multiblimp_nl
+- multiblimp_pl
+- multiblimp_pt
+- multiblimp_ro
+- multiblimp_sr
+- multiblimp_sv
+- multiblimp_tr
+- multiblimp_uk
+- multiblimp_ur
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0

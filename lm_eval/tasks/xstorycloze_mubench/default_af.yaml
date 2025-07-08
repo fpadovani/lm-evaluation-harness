@@ -1,0 +1,17 @@
+task: xstorycloze_af_mubench
+dataset_path: aialt/MuBench
+dataset_name: StoryClozeDataset_local_template_af
+output_type: multiple_choice
+validation_split: validation
+test_split: test
+doc_to_text: "{{prompt}}"
+doc_to_target: "{{choices[label]}}"
+doc_to_choice: "{{choices}}"
+should_decontaminate: true
+doc_to_decontamination_query: "{{prompt}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
