@@ -1,6 +1,6 @@
 include: default_af.yaml
 task: xstorycloze_es_mubench
-dataset_name: StoryClozeDataset_local_template_es
+dataset_name: StoryClozeDataset_lighteval_es
 
 
 

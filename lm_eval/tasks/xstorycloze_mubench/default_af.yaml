@@ -1,6 +1,6 @@
 task: xstorycloze_af_mubench
 dataset_path: aialt/MuBench
-dataset_name: StoryClozeDataset_local_template_af
+dataset_name: StoryClozeDataset_lighteval_af
 output_type: multiple_choice
 validation_split: validation
 test_split: test
