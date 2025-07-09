@@ -1,4 +1,4 @@
-# XStoryCloze
+# WinoGrande
 
 ### Paper
 

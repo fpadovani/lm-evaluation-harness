@@ -1,4 +1,4 @@
-# XStoryCloze
+# MultiBLiMP
 
 ### Paper
 
@@ -29,7 +29,7 @@ Homepage: https://github.com/jumelet/multiblimp
 * `multiblimp`
 
 #### Tasks
-** `multiblimp_ar`: Arabic  
+* `multiblimp_ar`: Arabic  
 * `multiblimp_bg`: Bulgarian  
 * `multiblimp_cy`: Welsh  
 * `multiblimp_hr`: Croatian  

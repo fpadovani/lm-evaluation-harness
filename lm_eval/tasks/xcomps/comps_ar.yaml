@@ -1,0 +1,15 @@
+task: comps_ar
+dataset_path: fpadovani/xcomps-dataset
+dataset_name: comps_ar
+output_type: multiple_choice
+validation_split: comps_ar
+doc_to_text: ""
+doc_to_target: 0
+doc_to_choice: "{{[acceptable_sent, unacceptable_sent]}}"
+num_fewshot: 0
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

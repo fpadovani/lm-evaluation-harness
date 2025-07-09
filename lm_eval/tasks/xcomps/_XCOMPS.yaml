@@ -1,0 +1,26 @@
+group: XCOMPS
+task:
+- comps_ar
+- comps_ca
+- comps_de
+- comps_el
+- comps_es
+- comps_fa
+- comps_fr
+- comps_he 
+- comps_hu
+- comps_ja
+- comps_ko
+- comps_nl
+- comps_ru
+- comps_tr 
+- comps_uk
+- comps_vi
+- comps_zh
+
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
